@@ -83,6 +83,10 @@ h1,h2,h3,h4,h5,h6{
 .btn:hover{
     opacity: 0.9;
 }
+.card{
+    background: #fff;
+    padding: 1rem;
+}
 
 
 /* Navigation */
@@ -156,4 +160,14 @@ h1,h2,h3,h4,h5,h6{
 }
 #showcase .showcase-content p{
     margin-bottom: 1rem;
+}
+
+/* home article */
+#home-articles .articles-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:1rem;
+}
+#home.articles .articles-container *:first-child{
+
 }
